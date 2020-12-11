@@ -1,0 +1,1894 @@
+
+/*====================== 320 to 575 responsive start =====================*/
+
+@media (min-width: 320px) and (max-width: 575px){
+
+    nav {
+        top: 10px;
+    }
+
+    nav button i{
+        color: #000000;
+    }
+
+    nav button:focus{
+        outline: 0;
+    }
+
+    nav h3 {
+        font-size: 20px;
+    }
+
+    .navbar {
+        z-index: 9999;
+        background: #ffff;
+    }
+
+    nav .menubtn a {
+        /* display: inline-block; */
+        padding: 7px 15px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    .menubtn{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #banner-part {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    #banner-part .text {
+        margin: 30px 30px;
+    }
+
+    #banner-part .text .icon i {
+        width: 25px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        top: 13px;
+        left: 5px;
+    }
+
+    #banner-part .text .editors {
+        padding: 4px 35px;
+        font-size: 12px;
+    }
+
+    #banner-part .text h2 {
+        font-size: 24px;
+    }
+
+    #banner-part .text p {
+        font-size: 14px;
+        width: 250px;
+        margin-top: 10px;
+    }
+
+    #banner-part .text a {
+        margin-top: 5px;
+    }
+
+    #banner-part .text a p {
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    #banner-part .img {
+        height: 310px;
+    }
+
+    #banner-part .img img {
+        width: 175px;
+    }
+
+    #company-part p {
+        padding-top: 70px;
+    }
+
+    #company-part .company {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .slick-slide img {
+        width: 118px;
+    }
+
+    #awesome-part {
+        padding-top: 30px;
+    }
+
+    #awesome-part .img {
+        text-align: center;
+    }
+
+    #awesome-part .img img {
+        width: 200px;
+        height: 300px;
+    }
+
+    #awesome-part .text .head h3 {
+        font-size: 24px;
+    }
+
+    #awesome-part .text .head p {
+        font-size: 14px;
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    #awesome-part .text .mid .img {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #awesome-part .text .mid .img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #awesome-part .text .mid .text2 {
+        width: 70%;
+    }
+
+    #awesome-part .text .mid .text2 p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #jackpots-part {
+        padding-top: 40px;
+    }
+
+    #jackpots-part .item {
+        width: 100%;
+        /* background: red; */
+        border-right: 0 solid #b9b9b8;
+    }
+
+    #jackpots-part .item h3 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #jackpots-part .side p {
+        font-size: 14px;
+        margin-top: 15px;
+        width: auto;
+    }
+
+    #automaticPayout-part {
+        padding-top: 30px;
+    }
+
+    #automaticPayout-part .item {
+        margin-top: 10px;
+    }
+
+    #automaticPayout-part .item .text {
+        margin-top: 15px;
+    }
+
+    #automaticPayout-part .item .text p {
+        font-size: 14px;
+        width: 245px;
+        margin-top: 10px;
+    }
+
+    #designed-part {
+        padding-top: 30px;
+    }
+
+    #designed-part .img img {
+        height: 320px;
+    }
+
+    #designed-part .text h3 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    #designed-part .text p {
+        font-size: 14px;
+        margin-top: 10px;
+        width: auto;
+    }
+
+    #designed-part .text a {
+        padding: 10px 20px;
+        margin-top: 15px;
+    }
+
+    #ourApp-part {
+        padding-top: 40px;
+    }
+
+    #ourApp-part .head h4 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #ourApp-part .head p {
+        font-size: 14px;
+        width: auto;
+        margin: 10px auto;
+    }
+
+    #ourApp-part .item .text h5 {
+        font-size: 20px;
+        margin-top: 10px;
+        width: auto;
+    }
+
+    #ourApp-part .item .last {
+        margin-top: 20px;
+    }
+
+    #ultimate-part {
+        padding-top: 70px;
+    }
+
+    #ultimate-part .item .text h3 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #ultimate-part .item .text {
+        width: 92%;
+    }
+
+    #ultimate-part .item .text p {
+        font-size: 14px;
+        width: 220px;
+        margin-top: 5px;
+    }
+
+    #ultimate-part .item .middle-text .items h5 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #ultimate-part .item .middle-text .items p {
+        font-size: 14px;
+        width: 135px;
+        margin-top: 10px;
+    }
+
+    #ultimate-part .img img {
+        width: 530px;
+        height: 290px;
+        top: 150px;
+        left: 200px;
+    }
+
+    #ultimate-part .img {
+        width: 100%;
+        height: 340px;
+    }
+
+    #feature-part {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    #feature-part .head h3 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #feature-part .head p {
+        font-size: 14px;
+        width: auto;
+        margin: 15px auto;
+    }
+
+    #feature-part .head .btn a {
+        padding: 10px 20px;
+    }
+
+    #feature-part .item {
+        width: auto;
+        height: auto;
+        margin-top: 55px;
+
+    }
+
+    #feature-part .item .first {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    #feature-part .item .month {
+        font-size: 16px;
+    }
+
+    #feature-part .item p span {
+        font-size: 45px;
+    }
+
+    #feature-part .item .first h4 {
+        font-size: 18px;
+    }
+
+    #feature-part .item .for {
+        font-size: 14px;
+    }
+
+    #feature-part .item .mid ul li {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #meetClient-part .img img {
+        height: 330px;
+        width: 340px;
+    }
+
+    #meetClient-part .text h2 {
+        font-size: 24px;
+        width: auto;
+        margin-top: -300px;
+        text-align: center;
+    }
+
+    #meetClient-part .text p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #meetClient-part .slider-part .slid .icon {
+        text-align: center;
+    }
+
+    #meetClient-part .slider-part .slid h5 {
+        font-size: 16px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #meetClient-part .slider-part .slid p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #meetClient-part .slider-part .slid .lastOne {
+        margin-top: 20px;
+    }
+
+    #meetClient-part .slider-part .slid .lastOne .text h4 {
+         display: block;
+    }
+
+    #frequently-part {
+        padding-top: 50px;
+    }
+
+    #frequently-part .item h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #frequently-part .item p {
+        font-size: 14px;
+        color: #616368;
+        width: auto;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    #footerTop-part {
+        padding-top: 40px;
+    }
+
+    #footerTop-part .text h1 {
+        font-size: 32px;
+        width: auto;
+    }
+
+    #footerTop-part .text p {
+        font-size: 14px;
+        width: 270px;
+        margin-top: 20px;
+    }
+
+    #footerTop-part .text a {
+        margin-top: 10px;
+    }
+
+    #footerTop-part .img img {
+        height: 200px;
+    }
+
+    #footerBottom-part {
+        padding: 20px;
+    }
+
+    #footerBottom-part .item ul li {
+        margin-top: 15px;
+    }
+
+    #footerBottom-part .item ul li a {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    #footerBottom-part .item .icon i {
+        margin-top: 0;
+    }
+
+    #footerBottom-part .item p {
+        margin-top: 25px;
+    }
+
+    .btnlast {
+        padding: 10px 10px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+}
+
+/*====================== 320 to 575 responsive end =====================*/
+
+
+
+
+
+
+/*====================== 576 to 767 responsive start =====================*/
+
+@media (min-width: 576px) and (max-width: 767px){
+
+    nav {
+        top: 10px;
+    }
+
+    nav button i{
+        color: #000000;
+    }
+
+    nav button:focus{
+        outline: 0;
+    }
+
+    nav h3 {
+        font-size: 20px;
+    }
+
+    .navbar {
+        z-index: 9999;
+        background: #ffff;
+    }
+
+    nav .menubtn a {
+        /* display: inline-block; */
+        padding: 7px 15px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    .menubtn{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #banner-part {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    #banner-part .text {
+        margin: 30px 30px;
+    }
+
+    #banner-part .text .icon i {
+        width: 25px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        top: 13px;
+        left: 5px;
+    }
+
+    #banner-part .text .editors {
+        padding: 4px 35px;
+        font-size: 12px;
+    }
+
+    #banner-part .text h2 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    #banner-part .text p {
+        font-size: 16px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #banner-part .text a {
+        margin-top: 5px;
+    }
+
+    #banner-part .text a p {
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    #banner-part .img {
+        height: 310px;
+    }
+
+    #banner-part .img img {
+        width: 175px;
+    }
+
+    /*#company-part .company .smll {*/
+    /*    margin-top: 35px;*/
+    /*    width: 168px !important;*/
+    /*}*/
+
+    #company-part .company .smll {
+        margin-top: 35px;
+        width: 190px !important;
+    }
+
+    #company-part p {
+        padding-top: 70px;
+    }
+
+    /*#company-part .company {*/
+    /*    width: 76%;*/
+    /*    margin: 30px auto;*/
+    /*}*/
+
+    .slick-slide img {
+        width: 118px;
+    }
+
+    #awesome-part {
+        padding-top: 30px;
+    }
+
+    #awesome-part .img {
+        text-align: center;
+    }
+
+    #awesome-part .img img {
+        width: 200px;
+        height: 300px;
+    }
+
+    #awesome-part .text .head h3 {
+        font-size: 24px;
+    }
+
+    #awesome-part .text .head p {
+        font-size: 14px;
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    #awesome-part .text .mid .img {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #awesome-part .text .mid .img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #awesome-part .text .mid .text2 {
+        width: 70%;
+    }
+
+    #awesome-part .text .mid .text2 p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #jackpots-part {
+        padding-top: 40px;
+    }
+
+    #jackpots-part .item {
+        width: 100%;
+        /* background: red; */
+        border-right: 0 solid #b9b9b8;
+    }
+
+    #jackpots-part .item h3 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #jackpots-part .side p {
+        font-size: 14px;
+        margin-top: 15px;
+        width: auto;
+    }
+
+    #automaticPayout-part {
+        padding-top: 30px;
+    }
+
+    #automaticPayout-part .item {
+        margin-top: 10px;
+    }
+
+    #automaticPayout-part .item .text {
+        margin-top: 15px;
+    }
+
+    #automaticPayout-part .item .text p {
+        font-size: 14px;
+        width: 245px;
+        margin-top: 10px;
+    }
+
+    #designed-part {
+        padding-top: 30px;
+    }
+
+    #designed-part .img img {
+        height: 320px;
+    }
+
+    #designed-part .text h3 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    #designed-part .text p {
+        font-size: 14px;
+        margin-top: 10px;
+        width: auto;
+    }
+
+    #designed-part .text a {
+        padding: 10px 20px;
+        margin-top: 15px;
+    }
+
+    #ourApp-part {
+        padding-top: 40px;
+    }
+
+    #ourApp-part .head h4 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #ourApp-part .head p {
+        font-size: 14px;
+        width: auto;
+        margin: 10px auto;
+    }
+
+    #ourApp-part .item .text p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #ourApp-part .item .text h5 {
+        font-size: 20px;
+        margin-top: 10px;
+        width: auto;
+    }
+
+    #ourApp-part .item .last {
+        margin-top: 20px;
+    }
+
+    #ultimate-part {
+        padding-top: 70px;
+    }
+
+    #ultimate-part .item .text h3 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #ultimate-part .item .text {
+        width: 92%;
+    }
+
+    #ultimate-part .item .text p {
+        font-size: 14px;
+        width: 220px;
+        margin-top: 5px;
+    }
+
+    #ultimate-part .item .middle-text .items h5 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #ultimate-part .item .middle-text .items p {
+        font-size: 14px;
+        width: 135px;
+        margin-top: 10px;
+    }
+
+    #ultimate-part .img img {
+        width: 530px;
+        height: 290px;
+        top: 150px;
+        left: 200px;
+    }
+
+    #ultimate-part .img {
+        width: 100%;
+        height: 340px;
+    }
+
+    #feature-part {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    #feature-part .head h3 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #feature-part .head p {
+        font-size: 14px;
+        width: auto;
+        margin: 15px auto;
+    }
+
+    #feature-part .head .btn a {
+        padding: 10px 20px;
+    }
+
+    #feature-part .item {
+        width: auto;
+        height: auto;
+        margin-top: 55px;
+
+    }
+
+    #feature-part .item .first {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    #feature-part .item .month {
+        font-size: 16px;
+    }
+
+    #feature-part .item p span {
+        font-size: 45px;
+    }
+
+    #feature-part .item .first h4 {
+        font-size: 18px;
+    }
+
+    #feature-part .item .for {
+        font-size: 14px;
+    }
+
+    #feature-part .item .mid ul li {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #meetClient-part .img {
+        text-align: center;
+    }
+
+    #meetClient-part .img img {
+        height: 330px;
+        width: 340px;
+    }
+
+    #meetClient-part .text h2 {
+        font-size: 24px;
+        width: auto;
+        margin-top: -300px;
+        text-align: center;
+    }
+
+    #meetClient-part .text p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #meetClient-part .slider-part .slid .icon {
+        text-align: center;
+    }
+
+    #meetClient-part .slider-part .slid h5 {
+        font-size: 16px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #meetClient-part .slider-part .slid p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #meetClient-part .slider-part .slid .lastOne {
+        margin-top: 20px;
+    }
+
+    #meetClient-part .slider-part .slid .lastOne .text h4 {
+        display: block;
+    }
+
+    #frequently-part {
+        padding-top: 50px;
+    }
+
+    #frequently-part .item h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #frequently-part .item p {
+        font-size: 14px;
+        color: #616368;
+        width: auto;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    #footerTop-part {
+        padding-top: 40px;
+    }
+
+    #footerTop-part .text h1 {
+        font-size: 32px;
+        width: auto;
+    }
+
+    #footerTop-part .text p {
+        font-size: 14px;
+        width: 270px;
+        margin-top: 20px;
+    }
+
+    #footerTop-part .text a {
+        margin-top: 10px;
+    }
+
+    #footerTop-part .img img {
+        height: 200px;
+    }
+
+    #footerBottom-part {
+        padding: 20px;
+    }
+
+    #footerBottom-part .item ul li {
+        margin-top: 15px;
+    }
+
+    #footerBottom-part .item ul li a {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    #footerBottom-part .item .icon i {
+        margin-top: 0;
+    }
+
+    #footerBottom-part .item p {
+        margin-top: 25px;
+    }
+
+    .btnlast {
+        padding: 10px 10px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+}
+
+/*====================== 576 to 767 responsive end =====================*/
+
+
+
+
+
+
+
+/*====================== 768 to 991 responsive start =====================*/
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    nav {
+        top: 10px;
+    }
+
+    nav button i{
+        color: #000000;
+    }
+
+    nav button:focus{
+        outline: 0;
+    }
+
+    nav h3 {
+        font-size: 20px;
+    }
+
+    .navbar {
+        z-index: 9999;
+        background: #ffff;
+    }
+
+    nav .menubtn a {
+        /* display: inline-block; */
+        padding: 7px 15px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    .menubtn{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #banner-part {
+        padding-top: 110px;
+        padding-bottom: 30px;
+    }
+
+    #banner-part .text {
+        margin: 30px 30px;
+    }
+
+    #banner-part .text .icon i {
+        width: 36px;
+        height: 28px;
+        line-height: 25px;
+        font-size: 16px;
+        top: 13px;
+        left: 5px;
+    }
+
+    #banner-part .text .editors {
+        padding: 8px 55px;
+        font-size: 14px;
+    }
+
+    #banner-part .text h2 {
+        font-size: 36px;
+        margin-top: 15px;
+    }
+
+    #banner-part .text p {
+        font-size: 16px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #banner-part .text a {
+        margin-top: 5px;
+    }
+
+    #banner-part .text a p {
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    #banner-part .img {
+        height: 350px;
+    }
+
+    #banner-part .img img {
+        width: 190px;
+    }
+
+    /*#company-part .company .smll {*/
+    /*    margin-top: 35px;*/
+    /*    width: 168px !important;*/
+    /*}*/
+
+    #company-part .company .smll {
+        margin-top: 35px;
+        width: 190px !important;
+    }
+
+    #company-part p {
+        padding-top: 70px;
+    }
+
+    /*#company-part .company {*/
+    /*    width: 76%;*/
+    /*    margin: 30px auto;*/
+    /*}*/
+
+    .slick-slide img {
+        width: 118px;
+    }
+
+    #awesome-part {
+        padding-top: 0;
+    }
+
+    #awesome-part .img {
+        text-align: center;
+    }
+
+    #awesome-part .img img {
+        width: 300px;
+        height: 400px;
+    }
+
+    #awesome-part .text .head h3 {
+        font-size: 24px;
+    }
+
+    #awesome-part .text .head p {
+        font-size: 14px;
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    #awesome-part .text .mid .img {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #awesome-part .text .mid .img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #awesome-part .text .mid .text2 {
+        width: 70%;
+    }
+
+    #awesome-part .text .mid .text2 p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #jackpots-part {
+        padding-top: 40px;
+    }
+
+    #jackpots-part .item {
+        width: 100%;
+        border-right: 1px solid #b9b9b8;
+    }
+
+    #jackpots-part .item h3 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #jackpots-part .side p {
+        font-size: 14px;
+        margin-top: 0;
+        width: auto;
+    }
+
+    #automaticPayout-part {
+        padding-top: 30px;
+    }
+
+    #automaticPayout-part .item {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    #automaticPayout-part .item .text {
+        margin-top: 15px;
+    }
+
+    #automaticPayout-part .item .text p {
+        font-size: 14px;
+        width: 245px;
+        margin-top: 10px;
+    }
+
+    #designed-part {
+        padding-top: 80px;
+    }
+
+    #designed-part .img img {
+        height: 320px;
+    }
+
+    #designed-part .text h3 {
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+    #designed-part .text p {
+        font-size: 14px;
+        margin-top: 10px;
+        width: auto;
+    }
+
+    #designed-part .text a {
+        padding: 10px 20px;
+        margin-top: 15px;
+    }
+
+    #ourApp-part {
+        padding-top: 40px;
+    }
+
+    #ourApp-part .head h4 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #ourApp-part .head p {
+        font-size: 14px;
+        width: auto;
+        margin: 10px auto;
+    }
+
+    #ourApp-part .item .text p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #ourApp-part .item .text h5 {
+        font-size: 20px;
+        margin-top: 10px;
+        width: auto;
+    }
+
+    #ourApp-part .item .last {
+        margin-top: 20px;
+    }
+
+    #ultimate-part {
+        padding-top: 70px;
+    }
+
+    #ultimate-part .item .text h3 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #ultimate-part .item .text {
+        width: 92%;
+    }
+
+    #ultimate-part .item .text p {
+        font-size: 14px;
+        width: 220px;
+        margin-top: 5px;
+    }
+
+    #ultimate-part .item .middle-text .items h5 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #ultimate-part .item .middle-text .items p {
+        font-size: 14px;
+        width: 135px;
+        margin-top: 10px;
+    }
+
+    #ultimate-part .img img {
+        width: 620px;
+        height: 410px;
+        top: 300px;
+        left: 95px;
+    }
+
+    #ultimate-part .img {
+        width: 100%;
+        height: 340px;
+    }
+
+    #feature-part {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    #feature-part .head h3 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #feature-part .head p {
+        font-size: 14px;
+        width: auto;
+        margin: 15px auto;
+    }
+
+    #feature-part .head .btn a {
+        padding: 10px 20px;
+    }
+
+    #feature-part .item {
+        width: auto;
+        height: auto;
+        margin-top: 55px;
+
+    }
+
+    #feature-part .item .first {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    #feature-part .item .month {
+        font-size: 16px;
+    }
+
+    #feature-part .item p span {
+        font-size: 45px;
+    }
+
+    #feature-part .item .first h4 {
+        font-size: 18px;
+    }
+
+    #feature-part .item .for {
+        font-size: 14px;
+    }
+
+    #feature-part .item .mid ul li {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #meetClient-part {
+        padding-top: 40px;
+    }
+
+    #meetClient-part .img {
+        text-align: center;
+    }
+
+    #meetClient-part .img {
+        height: 490px;
+    }
+
+    #meetClient-part .img img {
+        height: 330px;
+        width: 340px;
+    }
+
+    #meetClient-part .text h2 {
+        font-size: 24px;
+        width: auto;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #meetClient-part .text p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #meetClient-part .slider-part .slid .icon {
+        text-align: center;
+    }
+
+    #meetClient-part .slider-part .slid h5 {
+        font-size: 16px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #meetClient-part .slider-part .slid p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #meetClient-part .slider-part .slid .lastOne {
+        margin-top: 20px;
+    }
+
+    #meetClient-part .slider-part .slid .lastOne .text h4 {
+        display: block;
+    }
+
+    #frequently-part {
+        padding-top: 50px;
+    }
+
+    #frequently-part .item h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #frequently-part .item p {
+        font-size: 14px;
+        color: #616368;
+        width: auto;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    #footerTop-part {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    #footerTop-part .text h1 {
+        font-size: 32px;
+        width: auto;
+    }
+
+    #footerTop-part .text p {
+        font-size: 14px;
+        width: 270px;
+        margin-top: 20px;
+    }
+
+    #footerTop-part .text a {
+        margin-top: 10px;
+    }
+
+    #footerTop-part .text a i {
+        font-size: 20px;
+        top: 30px;
+        left: -35px;
+    }
+
+    #footerTop-part .img img {
+        height: 220px;
+        margin-top: 80px;
+    }
+
+    #footerBottom-part {
+        padding: 20px;
+    }
+
+    #footerBottom-part .item ul li {
+        margin-top: 15px;
+    }
+
+    #footerBottom-part .item ul li a {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    #footerBottom-part .item .icon i {
+        margin-top: 0;
+    }
+
+    #footerBottom-part .item p {
+        margin-top: 25px;
+    }
+
+    .btnlast {
+        padding: 10px 10px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+}
+
+/*====================== 768 to 991 responsive end =====================*/
+
+
+
+
+
+
+
+
+
+
+/*====================== 992 to 1199 responsive start =====================*/
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+    nav {
+        top: 10px;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        margin-left: 20px;
+    }
+
+    nav button i{
+        color: #000000;
+    }
+
+    nav button:focus{
+        outline: 0;
+    }
+
+    nav h3 {
+        font-size: 36px;
+    }
+
+    .navbar {
+        z-index: 9999;
+        background: #ffff;
+    }
+
+    nav .menubtn a {
+        /* display: inline-block; */
+        padding: 7px 15px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    .menubtn{
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #banner-part {
+        padding-top: 110px;
+        padding-bottom: 30px;
+    }
+
+    #banner-part .text {
+        margin: 30px 30px;
+    }
+
+    #banner-part .text .icon i {
+        width: 36px;
+        height: 28px;
+        line-height: 25px;
+        font-size: 16px;
+        top: 13px;
+        left: 5px;
+    }
+
+    #banner-part .text .editors {
+        padding: 8px 55px;
+        font-size: 14px;
+    }
+
+    #banner-part .text h2 {
+        font-size: 50px;
+        margin-top: 15px;
+    }
+
+    #banner-part .text p {
+        font-size: 16px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #banner-part .text a {
+        margin-top: 5px;
+    }
+
+    #banner-part .text a p {
+        padding: 20px 40px;
+        text-align: center;
+    }
+
+    #banner-part .img {
+        height: 400px;
+    }
+
+    #banner-part .img img {
+        width: 215px;
+    }
+
+    /*#company-part .company .smll {*/
+    /*    margin-top: 35px;*/
+    /*    width: 168px !important;*/
+    /*}*/
+
+    #company-part .company .smll {
+        margin-top: 35px;
+        width: 190px !important;
+    }
+
+    #company-part p {
+        padding-top: 70px;
+    }
+
+    /*#company-part .company {*/
+    /*    width: 76%;*/
+    /*    margin: 30px auto;*/
+    /*}*/
+
+    .slick-slide img {
+        width: 118px;
+    }
+
+    #awesome-part {
+        padding-top: 0;
+    }
+
+    #awesome-part .img {
+        text-align: center;
+    }
+
+    #awesome-part .img img {
+        width: 328px;
+        height: 500px;
+    }
+
+    #awesome-part .text .head h3 {
+        font-size: 36px;
+    }
+
+    #awesome-part .text .head p {
+        font-size: 16px;
+        width: 430px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    #awesome-part .text .mid .img {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    #awesome-part .text .mid .img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #awesome-part .text .mid .text2 {
+        width: 70%;
+    }
+
+    #awesome-part .text .mid .text2 p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #jackpots-part {
+        padding-top: 40px;
+    }
+
+    #jackpots-part .item {
+        width: 100%;
+        border-right: 1px solid #b9b9b8;
+    }
+
+    #jackpots-part .item h3 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #jackpots-part .side p {
+        font-size: 14px;
+        margin-top: 0;
+        width: auto;
+    }
+
+    #automaticPayout-part {
+        padding-top: 30px;
+    }
+
+    #automaticPayout-part .item {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    #automaticPayout-part .item .text {
+        margin-top: 15px;
+    }
+
+    #automaticPayout-part .item .text p {
+        font-size: 14px;
+        width: 245px;
+        margin-top: 10px;
+    }
+
+    #designed-part {
+        padding-top: 80px;
+    }
+
+    #designed-part .img img {
+        height: 500px;
+    }
+
+    #designed-part .text h3 {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    #designed-part .text p {
+        font-size: 16px;
+        margin-top: 30px;
+        width: auto;
+    }
+
+    #designed-part .text a {
+        padding: 20px 30px;
+        margin-top: 30px;
+    }
+
+    #ourApp-part {
+        padding-top: 40px;
+    }
+
+    #ourApp-part .head h4 {
+        font-size: 36px;
+        width: 440px;
+    }
+
+    #ourApp-part .head p {
+        font-size: 16px;
+        width: 630px;
+        margin: 20px auto;
+    }
+
+    #ourApp-part .item .text p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #ourApp-part .item .text h5 {
+        font-size: 20px;
+        margin-top: 10px;
+        width: auto;
+    }
+
+    #ourApp-part .item .last {
+        margin-top: 20px;
+    }
+
+    #ultimate-part {
+        padding-top: 70px;
+    }
+
+    #ultimate-part .item .text h3 {
+        font-size: 34px;
+        width: 320px;
+    }
+
+    #ultimate-part .item .text {
+        width: 92%;
+    }
+
+    #ultimate-part .item .text p {
+        font-size: 16px;
+        width: 390px;
+        margin-top: 15px;
+    }
+
+    #ultimate-part .item .middle-text .items h5 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #ultimate-part .item .middle-text .items p {
+        font-size: 16px;
+        width: 230px;
+        margin-top: 15px;
+    }
+
+    #ultimate-part .img img {
+        width: 750px;
+        height: 501px;
+        top: 330px;
+        left: 138px;
+    }
+
+    #ultimate-part .img {
+        width: 100%;
+        height: 340px;
+    }
+
+    #feature-part {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    #feature-part .head h3 {
+        font-size: 36px;
+        width: 570px;
+    }
+
+    #feature-part .head p {
+        font-size: 16px;
+        width: 630px;
+        margin: 20px auto;
+    }
+
+    #feature-part .head .btn a {
+        padding: 15px 35px;
+    }
+
+    #feature-part .item {
+        width: auto;
+        height: auto;
+        margin-top: 55px;
+
+    }
+
+    /*#feature-part .item .first {*/
+    /*    padding-top: 40px;*/
+    /*    padding-bottom: 30px;*/
+    /*}*/
+
+    #feature-part .item .month {
+        font-size: 16px;
+    }
+
+    #feature-part .item p span {
+        font-size: 45px;
+    }
+
+    #feature-part .item .first h4 {
+        font-size: 18px;
+    }
+
+    #feature-part .item .for {
+        font-size: 14px;
+    }
+
+    /*#feature-part .item .mid ul li {*/
+    /*    font-size: 14px;*/
+    /*    margin-top: 10px;*/
+    /*}*/
+
+    #meetClient-part {
+        padding-top: 40px;
+    }
+
+    #meetClient-part .img {
+        text-align: center;
+    }
+
+    #meetClient-part .img {
+        height: 490px;
+        margin-top: 60px;
+    }
+
+    /*#meetClient-part .img img {*/
+    /*    height: 330px;*/
+    /*    width: 340px;*/
+    /*}*/
+
+    /*#meetClient-part .text h2 {*/
+    /*    font-size: 24px;*/
+    /*    width: auto;*/
+    /*    margin-top: 0;*/
+    /*    text-align: center;*/
+    /*}*/
+
+    /*#meetClient-part .text p {*/
+    /*    font-size: 14px;*/
+    /*    width: auto;*/
+    /*    margin-top: 10px;*/
+    /*    text-align: center;*/
+    /*}*/
+
+    /*#meetClient-part .slider-part .slid .icon {*/
+    /*    text-align: center;*/
+    /*}*/
+
+    /*#meetClient-part .slider-part .slid h5 {*/
+    /*    font-size: 16px;*/
+    /*    margin-top: 15px;*/
+    /*    text-align: center;*/
+    /*}*/
+
+    #meetClient-part .slider-part .slid p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #meetClient-part .slider-part .slid .lastOne {
+        margin-top: 20px;
+    }
+
+    #meetClient-part .slider-part .slid .lastOne .text h4 {
+        display: block;
+    }
+
+    #frequently-part {
+        padding-top: 50px;
+    }
+
+    #frequently-part .item h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #frequently-part .item p {
+        font-size: 14px;
+        color: #616368;
+        width: auto;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    #footerTop-part {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    /*#footerTop-part .text h1 {*/
+    /*    font-size: 32px;*/
+    /*    width: auto;*/
+    /*}*/
+
+    #footerTop-part .text p {
+        font-size: 16px;
+        width: 470px;
+        margin-top: 20px;
+    }
+
+    #footerTop-part .text a {
+        margin-top: 10px;
+    }
+
+    #footerTop-part .text a i {
+        font-size: 30px;
+        top: 30px;
+        left: -35px;
+    }
+
+    #footerTop-part .img img {
+        height: 300px;
+        margin-top: 80px;
+    }
+
+    #footerBottom-part {
+        padding: 20px;
+    }
+
+    #footerBottom-part .item ul li {
+        margin-top: 15px;
+    }
+
+    #footerBottom-part .item ul li a {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    #footerBottom-part .item .icon i {
+        margin-top: 0;
+    }
+
+    #footerBottom-part .item p {
+        margin-top: 25px;
+    }
+
+    /*.btnlast {*/
+    /*    padding: 10px 10px;*/
+    /*    bottom: 10px;*/
+    /*    right: 10px;*/
+    /*}*/
+
+}
+
+/*====================== 992 to 1199 responsive end =====================*/

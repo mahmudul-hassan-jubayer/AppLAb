@@ -1,0 +1,1302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/*=========== navbar css start ============*/
+
+
+.fixed {
+    position: fixed !important;
+    background: rgba(255, 255, 255, 0.78);
+    padding: 15px !important;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #242f51;
+    z-index: 9999;
+    transition: .9s;
+}
+
+nav {
+    background: transparent;
+    /*display: none !important;*/
+    position: absolute !important;
+    top: 30px;
+    left: 0;
+    width: 100%;
+}
+
+nav h3 {
+    color: #242f51;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .app {
+    color: #fcae61;
+}
+
+nav ul {
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-left: 35px;
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #242f51;
+    transition: .4s;
+}
+
+nav ul li a:hover {
+    color: #242f51;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+nav .menubtn a {
+    /*display: inline-block;*/
+    padding: 20px 40px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background: #2500f9;
+    border-radius: 30px;
+}
+
+/*=========== navbar css end ============*/
+
+
+/*=========== banner-part css start ============*/
+
+#banner-part {
+    background: url("../img/banner.png") no-repeat fixed bottom;
+    background-size: cover;
+    /*height: 700px;*/
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+#banner-part .text {
+    width: 100%;
+    /*height: 400px;*/
+    /*background: #f0ff34;*/
+    margin: 90px 30px;
+}
+
+#banner-part .text .icon {
+    display: inline-block;
+    position: relative;
+}
+
+#banner-part .text .icon i {
+    width: 40px;
+    height: 35px;
+    background: #feaa25;
+    border-radius: 20px;
+    line-height: 2;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner-part .text .editors {
+    display: inline-block;
+    background: #e2eaed;
+    padding: 4px 48px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #242f51;
+    border-radius: 20px;
+}
+
+#banner-part .text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+#banner-part .text p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #616368;
+}
+
+/*#banner-part .text .btn{*/
+/*    display: flex;*/
+/*}*/
+
+#banner-part .text a {
+    display: inline-block;
+    /*margin-left: 20px;*/
+    /*margin: 40px 5px;*/
+    margin-top: 40px;
+}
+
+#banner-part .text a p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 40px;
+    background: #2500f9;
+    border-radius: 30px;
+}
+
+#banner-part .text a .watch {
+    color: #2500f9;
+    background: transparent;
+    transition: .4s;
+}
+
+#banner-part .text a .watch:hover {
+    color: #ffffff;
+    background: #2500f9;
+}
+
+
+#banner-part .img {
+    width: 100%;
+    height: 500px;
+    /*background: #e7b0ff;*/
+    text-align: center;
+
+}
+
+#banner-part .img img {
+    width: 50%;
+    height: 100%;
+    filter: drop-shadow(0 0 0.75rem #000);
+}
+
+/*=========== banner-part css end ============*/
+
+
+/*=========== company-part css start ============*/
+
+#company-part p {
+    font-size: 16px;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 115px;
+}
+
+#company-part .company {
+    width: 930px;
+    margin: 40px auto;
+
+}
+
+#company-part .company .smll {
+    margin-top: 35px;
+}
+
+/*=========== company-part css end ============*/
+
+
+/*=========== awesome-part css start ============*/
+
+#awesome-part {
+    padding-top: 80px;
+}
+
+#awesome-part .img {
+    width: 100%;
+    /*background: red;*/
+}
+
+#awesome-part .img img {
+    width: 80%;
+    height: 580px;
+}
+
+#awesome-part .text {
+    width: 100%;
+    /*height: 500px;*/
+    /*background: yellow;*/
+}
+
+/*#awesome-part .text .head{*/
+/*    background: red;*/
+/*}*/
+
+#awesome-part .text .head h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    width: 280px;
+}
+
+#awesome-part .text .head p {
+    font-size: 16px;
+    color: #616368;
+    font-family: 'Poppins', sans-serif;
+    width: 430px;
+    padding-bottom: 50px;
+}
+
+#awesome-part .text .mid {
+    width: 100%;
+    /*height: 300px;*/
+    /*background: #1c7430;*/
+    /*margin-top: 50px;*/
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#awesome-part .text .mid .img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #ffecef;
+    text-align: center;
+    line-height: 82px;
+    align-self: center;
+}
+
+#awesome-part .text .two .img {
+    background: #f4f4ff;
+}
+
+#awesome-part .text .three .img {
+    background: #e4ffee;
+}
+
+#awesome-part .text .mid .img img {
+    width: 70px;
+    height: 70px;
+}
+
+#awesome-part .text .mid .text2 {
+    width: 80%;
+    /*height: 80px;*/
+    /*background: blue;*/
+}
+
+#awesome-part .text .mid .text2 h6 {
+    font-size: 20px;
+    color: #f55767;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+#awesome-part .text .two .text2 h6 {
+    color: #2563ff;
+}
+
+#awesome-part .text .three .text2 h6 {
+    color: #40975f;
+}
+
+#awesome-part .text .mid .text2 p {
+    font-size: 16px;
+    color: #616368;
+    font-family: 'Poppins', sans-serif;
+    width: 260px;
+    margin-top: 20px;
+}
+
+/*=========== awesome-part css end ============*/
+
+
+/*=========== jackpot-part css start ============*/
+
+#jackpots-part {
+    padding-top: 100px;
+}
+
+#jackpots-part .item {
+    width: 100%;
+    /*background: red;*/
+    border-right: 1px solid #b9b9b8;
+}
+
+#jackpots-part .item h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    width: 425px;
+    margin: 0 auto;
+}
+
+#jackpots-part .side {
+    width: 100%;
+    /*background: red;*/
+    align-items: center;
+    display: flex;
+}
+
+#jackpots-part .side p {
+    color: #616368;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+    margin-top: 35px;
+    width: 400px;
+}
+
+/*=========== jackpot-part css end ============*/
+
+
+/*=========== automaticPayout-part css start ============*/
+
+#automaticPayout-part {
+    padding-top: 80px;
+}
+
+#automaticPayout-part .item {
+    width: 100%;
+    /*height: 400px;*/
+    /*background: red;*/
+    margin-left: 40px;
+}
+
+
+#automaticPayout-part .item .img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #ffecef;
+    text-align: center;
+    line-height: 90px;
+}
+
+#automaticPayout-part .two .img {
+    background: #f4f4ff;
+}
+
+#automaticPayout-part .three .img {
+    background: #e4ffee;
+}
+
+#automaticPayout-part .item .text {
+    margin-top: 40px;
+}
+
+#automaticPayout-part .item .text h6 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #f55767;
+}
+
+#automaticPayout-part .two .text h6 {
+    color: #2563ff;
+}
+
+#automaticPayout-part .three .text h6 {
+    color: #40975f;
+}
+
+#automaticPayout-part .item .text p {
+    color: #616368;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 260px;
+    margin-top: 20px;
+}
+
+/*=========== automaticPayout-part css end ============*/
+
+
+/*=========== designed-part css start ============*/
+
+#designed-part {
+    padding-top: 100px;
+}
+
+#designed-part .img {
+    width: 100%;
+    /*background: red;*/
+}
+
+#designed-part .img img {
+    width: 100%;
+    height: 550px;
+}
+
+#designed-part .text {
+    width: 100%;
+    /*background: red;*/
+}
+
+#designed-part .text h3 {
+    font-size: 36px;
+    color: #242f51;
+    font-weight: 600;
+    width: 350px;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#designed-part .text p {
+    font-size: 16px;
+    color: #616368;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    width: 410px;
+}
+
+#designed-part .text a {
+    display: inline-block;
+    padding: 22px 38px;
+    background: #2500f9;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+#designed-part .text a h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*=========== designed-part css end ============*/
+
+
+/*=========== ourApp-part css start ============*/
+
+#ourApp-part {
+    padding-top: 100px;
+}
+
+#ourApp-part .head {
+    width: 100%;
+    /*background: red;*/
+}
+
+#ourApp-part .head h4 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    width: 440px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#ourApp-part .head p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #616368;
+    width: 632px;
+    text-align: center;
+    margin: 35px auto;
+}
+
+#ourApp-part .item {
+    width: 100%;
+    /*height: 600px;*/
+    /*background: red;*/
+}
+
+#ourApp-part .item .first {
+    width: 100%;
+    /*height: 50%;*/
+    /*background: #1c7430;*/
+}
+
+#ourApp-part .item .last {
+    width: 100%;
+    /*height: 50%;*/
+    /*background: #ff37db;*/
+    margin-top: 60px;
+}
+
+#ourApp-part .item .img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #ffecef;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 90px;
+}
+
+#ourApp-part .item .two {
+    background: #e4ffee;
+}
+
+#ourApp-part .item .three {
+    background: #e4ffee;
+}
+
+#ourApp-part .item .four {
+    background: #f4f4ff;
+}
+
+#ourApp-part .item .five {
+    background: #fff6d3;
+}
+
+#ourApp-part .item .six {
+    background: #fdeee4;
+}
+
+#ourApp-part .item .img img {
+    width: 60px;
+    height: 60px;
+}
+
+#ourApp-part .item .text h5 {
+    font-size: 20px;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#ourApp-part .item .text p {
+    font-size: 16px;
+    width: 260px;
+    color: #616368;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 15px auto;
+}
+
+/*=========== ourApp-part css end ============*/
+
+
+/*=========== ultimate-part css start ============*/
+
+#ultimate-part {
+    padding-top: 150px;
+}
+
+#ultimate-part .item {
+    width: 100%;
+    /*height: 400px;*/
+    /*background: red;*/
+}
+
+#ultimate-part .item .text {
+    width: 85%;
+    /*height: 100%;*/
+    /*background: green;*/
+    margin-left: auto;
+}
+
+#ultimate-part .item .text h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+    width: 320px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#ultimate-part .item .text p {
+    font-size: 16px;
+    color: #616368;
+    font-family: 'Poppins', sans-serif;
+    width: 390px;
+    margin-top: 15px;
+}
+
+#ultimate-part .item .middle-text {
+    /*width: 100%;*/
+    /*height: 100px;*/
+    /*background: yellow;*/
+    display: flex;
+    /*margin-top: 30px;*/
+}
+
+#ultimate-part .item .middle-text .items {
+    width: 50%;
+    /*height: 100%;*/
+    /*background: #ff37db;*/
+    /*margin-top: 30px;*/
+    float: left;
+}
+
+#ultimate-part .item .middle-text .items .img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #ffecef;
+    position: relative;
+    margin-top: 30px;
+}
+
+#ultimate-part .item .middle-text .items .two {
+    background: #fff6d3;
+}
+
+#ultimate-part .item .middle-text .items .three {
+    background: #e4ffee;
+}
+
+#ultimate-part .item .middle-text .items .four {
+    background: #f4f4ff;
+}
+
+#ultimate-part .item .middle-text .items .img img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#ultimate-part .item .middle-text .items h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+#ultimate-part .item .middle-text .items p {
+    font-size: 16px;
+    color: #616368;
+    font-family: 'Poppins', sans-serif;
+    width: 260px;
+    margin-top: 20px;
+}
+
+#ultimate-part .img {
+    width: 100%;
+    height: 400px;
+    /*background: red;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 104px;*/
+    /*margin-left: 119px;*/
+    position: relative;
+
+}
+
+#ultimate-part .img img {
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    top: 330px;
+    left: 286px;
+    transform: translate(-50%, -50%);
+}
+
+
+/*=========== ultimate-part css end ============*/
+
+
+/*=========== feature-part css start ============*/
+
+#feature-part {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#feature-part .head {
+    text-align: center;
+}
+
+#feature-part .head h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    width: 570px;
+    /*text-align: center;*/
+    margin: 0 auto;
+}
+
+#feature-part .head p {
+    font-size: 16px;
+    color: #616368;
+    width: 630px;
+    /*text-align: center;*/
+    margin: 30px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+#feature-part .head .btn {
+    /*margin: 0 auto;*/
+    /*background: yellow;*/
+    padding: 3px;
+    border-radius: 30px;
+    border: 2px solid #ebebeb;
+}
+
+#feature-part .head .btn a {
+    display: inline-block;
+    padding: 15px 35px;
+    background: #2500f9;
+    border-radius: 30px;
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
+}
+
+#feature-part .head .btn .annually {
+    background: transparent;
+}
+
+#feature-part .head .btn h6 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+#feature-part .head .btn .annually h6 {
+    color: #929396;
+}
+
+#feature-part .item {
+    width: 320px;
+    /*height: 200px;*/
+    /*background: red;*/
+    margin-left: auto;
+    margin-top: 40px;
+    /*width: 250px;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*text-align: center;*/
+    position: relative;
+    /*border-radius: 20px;*/
+    transition: .4s;
+    border: 2px solid rgba(235, 235, 235, 0.38);
+}
+
+#feature-part .two{
+    margin-left: 0;
+}
+
+/*#feature-part .items {*/
+/*    width: 320px;*/
+/*    height: 200px;*/
+/*    background: red;*/
+/*    margin-right: auto;*/
+
+/*}*/
+
+
+#feature-part .item .first{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background: #f4f7f9;
+    /*border-top-left-radius: 10px;*/
+    /*border-top-right-radius: 10px;*/
+}
+
+#feature-part .item .month {
+    color: #929396;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#feature-part .item .for{
+    font-size: 16px;
+    color: #999ca5;
+    font-family: 'Poppins', sans-serif;
+}
+
+#feature-part .item p span {
+    font-size: 60px;
+    font-weight: 600;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+
+#feature-part .item .first h4 {
+    font-size: 20px;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#feature-part .item .mid{
+    text-align: center;
+    padding-bottom: 20px;
+    background: #ffffff;
+}
+
+/*#feature-part .item .mid ul{*/
+/*    !*text-align: center;*!*/
+/*}*/
+
+#feature-part .item .mid ul li{
+    font-size: 16px;
+    color: #999ca5;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#feature-part .item .mid a{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background: blue;
+    font-size: 50px;
+    border-radius: 30px;
+}
+
+#feature-part .item .mid a h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#feature-part .item .last{
+    padding-bottom: 20px;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    transition: .4s;
+    border: 2px solid #ebebeb;
+    border-top: none;
+}
+
+#feature-part .item .last p{
+    font-size: 16px;
+    color: #2500f9;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#feature-part .item:hover{
+    border: 2px solid #ebebeb;
+    box-shadow: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /*border-radius: 10px;*/
+    border-bottom: none;
+}
+
+#feature-part .item:hover .last{
+    top: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*=========== feature-part css end ============*/
+
+
+
+/*=========== meetClient-part css start ============*/
+
+#meetClient-part{
+
+}
+
+#meetClient-part .img{
+    width: 100%;
+    /*background: red;*/
+    height: 650px;
+}
+
+#meetClient-part .img img{
+    height: 100%;
+    width: 100%;
+}
+
+#meetClient-part .text{
+    width: 100%;
+    /*background: #ff37db;*/
+    /*height: 650px;*/
+}
+
+#meetClient-part .text h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #242f51;
+    width: 485px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+
+#meetClient-part .text p{
+    font-size: 16px;
+    color: #616368;
+    width: 475px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*#meetClient-part .slider-part{*/
+/*    background: #1c7430;*/
+/*}*/
+
+#meetClient-part .slider-part .slid .icon{
+    margin-top: 20px;
+    color: #ffcc00;
+}
+
+#meetClient-part .slider-part .slid h5{
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+#meetClient-part .slider-part .slid p{
+    font-size: 16px;
+    color: #616368;
+    width: 560px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#meetClient-part .slider-part .slid .lastOne{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    width: 100%;
+    /*background: red;*/
+    margin-top: 60px;
+    position: relative;
+}
+
+#meetClient-part .slider-part .slid .lastOne .img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    /*background: #34ce57;*/
+    overflow: hidden;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+
+#meetClient-part .slider-part .slid .lastOne .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#meetClient-part .slider-part .slid .lastOne .text{
+    margin-left: 30px;
+    /*float: left;*/
+    position: absolute;
+    top: 50%;
+    right: -115px;
+    transform: translateY(-50%);
+}
+
+#meetClient-part .slider-part .slid .lastOne .text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+
+#meetClient-part .slider-part .slid .lastOne .text p{
+    font-size: 18px;
+    color: #616368;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+
+/*=========== meetClient-part css end ============*/
+
+
+
+/*=========== frequently-part css start ============*/
+
+#frequently-part{
+    padding-top: 100px;
+}
+
+#frequently-part .item h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#frequently-part .item p{
+    font-size: 16px;
+    color: #616368;
+    width: 630px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+/*================================================= accordion Css here start =========================================*/
+
+
+/*.container {*/
+/*    width: 1180px;*/
+/*    margin-top: 3em;*/
+/*}*/
+#accordion .panel {
+    border-radius: 0;
+    border: 0;
+    margin-top: 10px;
+    background: #f5f7fa;
+    position: relative;
+}
+#accordion a {
+    display: block;
+    padding: 10px 15px;
+    /*border-bottom: 1px solid #b42b2b;*/
+    text-decoration: none;
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+#accordion .panel-heading a.collapsed:hover,
+#accordion .panel-heading a.collapsed:focus {
+    background-color: #f5f7fa;
+    color: #242f51;
+    transition: all 0.2s ease-in;
+}
+#accordion .panel-heading a.collapsed:hover::before,
+#accordion .panel-heading a.collapsed:focus::before {
+    color: #242f51;
+}
+
+#accordion .panel-heading a.collapsed::before{
+    position: absolute;
+    top: 30%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+#accordion .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    /*text-align: center;*/
+}
+#accordion .panel-heading a:not(.collapsed) {
+    color: #242f51;
+    background-color: #f5f7fa;
+    transition: all 0.2s ease-in;
+
+}
+
+/* Add Indicator fontawesome icon to the left */
+#accordion .panel-heading .accordion-toggle::before {
+    font-family: 'FontAwesome';
+    content: '\f00d';
+    float: left;
+    color: #242f51;
+    font-weight: lighter;
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in;
+    position: absolute;
+    top: 30%;
+    right: 20px;
+    /*transform: translateY(-50%) rotate(0deg);*/
+    /*!*transition: all 0.2s ease-in;*!*/
+}
+#accordion .panel-heading .accordion-toggle.collapsed::before {
+    color: #444;
+    transform: rotate(-135deg);
+    transition: all 0.2s ease-in;
+}
+
+/*================================================= accordion Css here end =========================================*/
+
+
+
+/*=========== frequently-part css end ============*/
+
+
+
+/*=========== footerTop-part css start ============*/
+
+.btnlast {
+    padding: 15px 16px;
+    background: #2500F9;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    outline: 0;
+    z-index: 9999;
+    transition: .4s;
+    display: none;
+    border-radius: 10px;
+}
+
+.btnlast i {
+    color: #ffffff;
+}
+
+.btnlast:hover {
+    transform: scale(0.8);
+}
+
+#footerTop-part{
+    padding-top: 100px;
+}
+
+#footerTop-part .text{
+    width: 90%;
+    padding-top: 30px;
+    /*background: red;*/
+    margin-left: auto;
+}
+
+#footerTop-part .text h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+}
+
+#footerTop-part .text p{
+    font-size: 16px;
+    color: #616368;
+    width: 630px;
+    margin-top: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#footerTop-part .text a{
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 30px;
+    background: #000000;
+    display: inline-block;
+    position: relative;
+}
+
+#footerTop-part .text a i{
+    font-size: 30px;
+    color: #ffffff;
+    position: relative;
+    top: 35px;
+    left: -32px;
+    transform: translateY(-50%);
+}
+
+#footerTop-part .text .get{
+    font-size: 12px;
+    margin-left: -27px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#footerTop-part .text .google{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#footerTop-part .img{
+    width: 100%;
+    /*background: #34ce57;*/
+}
+
+#footerTop-part .img img{
+    width: 100%;
+    height: 350px;
+}
+
+/*=========== footerTop-part css end ============*/
+
+
+
+/*=========== footerBottom-part css start ============*/
+
+#footerBottom-part{
+    background: #09142e;
+    padding: 80px;
+    text-align: center;
+}
+
+#footerBottom-part .item h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#footerBottom-part .item span{
+    color: #fcae61;
+}
+
+#footerBottom-part .item ul li{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#footerBottom-part .item ul li a{
+    color: #ffffff;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#footerBottom-part .item .icon i{
+    color: #273043;
+    font-size: 30px;
+    margin-right: 25px;
+    margin-top: 40px;
+    transition: .4s;
+}
+
+#footerBottom-part .item .icon i:hover{
+    color: #ffffff;
+}
+
+#footerBottom-part .item p{
+    font-size: 14px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #5f636e;
+}
+
+/*=========== footerBottom-part css end ============*/
